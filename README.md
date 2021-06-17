@@ -24,5 +24,11 @@ Características:
 
 ![image](https://user-images.githubusercontent.com/63268239/122478915-7d05d180-cf87-11eb-8a6a-c0855e2194cd.png)
 
+![image](https://user-images.githubusercontent.com/63268239/122479537-7c216f80-cf88-11eb-9517-ac91b7ad9934.png)
+
+![image](https://user-images.githubusercontent.com/63268239/122479558-85aad780-cf88-11eb-8721-3e425103f687.png)
+
+![image](https://user-images.githubusercontent.com/63268239/122479571-8c394f00-cf88-11eb-8c53-e40641a325a4.png)
+
 
 
