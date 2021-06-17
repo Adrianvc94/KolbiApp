@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:model="clr-namespace:KolbiApp.Modelos"
+             x:Class="KolbiApp.Views.ProductDetails"
+             
+             x:DataType="model:Productos">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Visual="Material" BackgroundColor="White">
+
+                <Button x:Name="btnBack" HorizontalOptions="StartAndExpand"  BackgroundColor="#ffffff" 
+                        BorderRadius="100"  Text="Back" TextColor="#BFD62E" FontSize="17" FontAttributes="Bold" 
+                        Margin="15"/>
+
+                <Label Text="{Binding Name}" 
+                            FontSize="30" HorizontalOptions="Center" Margin="0,0,0,5" TextColor="Black"/>
+               
+                <StackLayout Margin="5">
+             
+                    <Image HorizontalOptions="Center" HeightRequest="200" WidthRequest="170"
+                        Source="{Binding Imagen}"/>
+                   
+                    <Label x:Name="lbl2" Text="Al comprarlo con un plan kölbi postpago obtendrás:
+Más GIGAS de Internet.
+La red más veloz con la mejor experiencia de video.
+APPS GRATIS sin consumir los Gigas de tu plan.
+Acceso a la mejor red 4.5G de acuerdo con la capacidad de cada teléfono*" Margin="20,20,20,5" TextColor="Black"/>
+
+                    <Label Text="Precio:" FontSize="18"  Margin="20,0,0,0" TextColor="Black"/>
+                    <Label Text="{Binding Price,StringFormat='${0}'}" Margin="20,0,0,0" TextColor="Black"
+                           FontSize="17" FontAttributes="Bold"/>
+
+                    <Picker x:Name="CHPlan" Title="Seleccione un Plan Postpago"
+                        TitleColor="#BFD62E" BackgroundColor="White" TextColor="Black"
+                        FontSize="15">
+                        <Picker.Items>
+                            <x:String>8 Meses</x:String>
+                            <x:String>12 Meses</x:String>
+                            <x:String>24 Meses</x:String>
+                        </Picker.Items>
+                    </Picker>
+                    <Picker x:Name="CHMemo" Title="Seleccione una Memoria" BackgroundColor="White" TextColor="Black"
+                        TitleColor="#BFD62E"
+                        FontSize="15">
+                        <Picker.Items>
+                            <x:String>32 GB</x:String>
+                            <x:String>64 GB</x:String>
+                            <x:String>128 GB</x:String>
+                        </Picker.Items>
+                    </Picker>
+                    <Picker x:Name="CHColor" Title="Seleccione un color" BackgroundColor="White" TextColor="Black"
+                        TitleColor="#BFD62E"
+                        FontSize="15">
+                        <Picker.Items>
+                            <x:String>Rojo</x:String>
+                            <x:String>Negro</x:String>
+                            <x:String>Blanco</x:String>
+                        </Picker.Items>
+                    </Picker>
+
+                </StackLayout>
+                <Button x:Name="btnCarrito" Text="Agregar al Carrito" TextColor="White" 
+                        BackgroundColor="#BFD62E" Margin="50,10,50,20" Padding="5"/>
+                <Label x:Name="lbl"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

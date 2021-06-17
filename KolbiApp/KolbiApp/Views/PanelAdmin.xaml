@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             NavigationPage.HasNavigationBar="True"
+             BackgroundColor="#F5F5F8"
+             x:Class="KolbiApp.Views.PanelAdmin">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Menú Administración" Order="Primary"/>
+        <ToolbarItem IconImageSource="kolbi.png" Priority="1" Order="Primary" x:Name="logo"/>
+    </ContentPage.ToolbarItems>
+    
+    <ContentPage.Content>
+
+        <StackLayout VerticalOptions="Fill" WidthRequest="300" Spacing="30"
+                HorizontalOptions="Fill" Margin="0,0,0,0">
+
+            <StackLayout Orientation="Horizontal" BackgroundColor="#049C9D"
+                         HorizontalOptions="Fill" HeightRequest="60">
+                <ImageButton Source="back_arrow.png" BackgroundColor="#049C9D" HeightRequest="30"
+                             Margin="20,0,0,0" x:Name="btnLogOut"></ImageButton>
+                <Label Text="MENÚ ADMINISTRACIÓN" TextColor="White" Margin="90,0,0,0" VerticalOptions="Center"
+                       FontSize="18"></Label>
+                <Image Source="kolbi.png" BackgroundColor="#049C9D" Margin="10,0,0,0"
+                       HeightRequest="40"></Image>
+            </StackLayout>
+            
+                <Frame HorizontalOptions="Center" Margin="0,0,0,0">
+                    <Image Source="LogoKolbi.png"
+                       HeightRequest="120" WidthRequest="280"></Image>
+                </Frame>
+                  
+
+            <StackLayout Margin="40,20,40,0" Spacing="30" Visual="Material">
+                <Button Text="Reportes" x:Name="btnReportes" BackgroundColor="#BFD62E" TextColor="#364200" 
+                        BorderRadius="20" FontSize="18" FontAttributes="Bold" Padding="10"></Button>
+                <Button Text="Usuarios" x:Name="btnUsuarios" BackgroundColor="#BFD62E" TextColor="#364200" 
+                        BorderRadius="20" FontSize="18" FontAttributes="Bold" Padding="10"></Button>
+                <Button Text="Productos" x:Name="btnProductos" BackgroundColor="#BFD62E" TextColor="#364200" 
+                        BorderRadius="20" FontSize="18" FontAttributes="Bold" Padding="10"></Button>
+            </StackLayout>
+            
+            
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:model="clr-namespace:KolbiApp.Modelos"
+             
+             x:Class="KolbiApp.Views.Factura">
+    <ContentPage.Content>
+
+        <StackLayout>
+
+
+            <Grid Margin="20,10,20,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <CollectionView BackgroundColor="Transparent"
+                            SelectionMode="None"
+                            ItemsSource="{Binding productos}"
+                                x:Name="ProductosView"
+                            ItemSizingStrategy="MeasureAllItems"
+                                Margin="0,10,0,0"
+                            >
+                    <CollectionView.ItemsLayout>
+                        <GridItemsLayout Orientation="Vertical" Span="1"
+                                     VerticalItemSpacing="0"/>
+                    </CollectionView.ItemsLayout>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="model:Productos" >
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="100*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Frame Margin="10,0,10,15" IsClippedToBounds="True" HasShadow="False"
+                                   Padding="10,0,10,0" BackgroundColor="White" HeightRequest="170">
+                                    <StackLayout Orientation="Horizontal">
+                                        <StackLayout>
+                                            <Label
+                                                  FontSize="Large" x:Name="txtName"
+                                                  Text="{Binding Name}" Margin="0,0,0,0"
+                                                  HorizontalOptions="Center" />
+                                            <Label
+                                                 FontSize="Large"
+                                                 Text="{Binding Price, StringFormat='${0}'}" TextColor="Black" FontAttributes="Bold"
+                                                 HorizontalOptions="Start" Margin="0,0,0,0"/>
+                                            <Label
+                                                  FontSize="Medium" 
+                                                  Text="{Binding Plan}" Margin="0"
+                                                  HorizontalOptions="Start" />
+                                            <Label
+                                                  FontSize="Medium" 
+                                                  Text="{Binding Memoria}" Margin="0"
+                                                  HorizontalOptions="Start" />
+                                            <Label
+                                                  FontSize="Medium" 
+                                                  Text="{Binding Color}" Margin="0"
+                                                  HorizontalOptions="Start" />
+                                        </StackLayout>
+                                    </StackLayout>
+                                </Frame>
+
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                    <CollectionView.Header>
+                        <StackLayout>
+
+                            <Frame HorizontalOptions="Center" Margin="0,0,0,0">
+                                <Image Source="LogoKolbi.png"
+                                    HeightRequest="120" WidthRequest="280"></Image>
+                            </Frame>
+                            <Label HorizontalOptions="Center" Text="Factura Electrónica" TextColor="Black" 
+                                   FontSize="30" FontAttributes="None" Margin="0,0,0,20"/>
+                        </StackLayout>
+                    </CollectionView.Header>
+                    <CollectionView.Footer>
+                        <StackLayout>
+                            <Label HorizontalOptions="Start" Text="Total:" TextColor="Black" 
+                                   FontSize="Large" FontAttributes="Bold" Margin="15,0,0,0"/>
+                            <Label HorizontalOptions="Start" TextColor="Black" x:Name="txtTotal"
+                                   FontSize="Medium" FontAttributes="Bold" Margin="15,0,0,10"/>
+                            <Button Text="Regresar" BackgroundColor="#049C9D" TextColor="White" 
+                            BorderRadius="10" x:Name="btnMarket" FontAttributes="Bold" FontSize="16"
+                            Padding="10" VerticalOptions="EndAndExpand" Margin="15,0,15,20"></Button>
+                        </StackLayout>
+                        
+                    </CollectionView.Footer>
+                </CollectionView>
+            </Grid>
+        </StackLayout>
+
+
+
+    </ContentPage.Content>
+</ContentPage>

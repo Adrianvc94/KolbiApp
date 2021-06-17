@@ -1,0 +1,77 @@
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Local\KolbiApp\KolbiApp\KolbiApp\bin\Debug\netstandard2.0\KolbiApp.deps.json
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Local\KolbiApp\KolbiApp\KolbiApp\bin\Debug\netstandard2.0\KolbiApp.dll
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Local\KolbiApp\KolbiApp\KolbiApp\bin\Debug\netstandard2.0\ref\KolbiApp.dll
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Local\KolbiApp\KolbiApp\KolbiApp\bin\Debug\netstandard2.0\KolbiApp.pdb
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Local\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\KolbiApp.csprojAssemblyReference.cache
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Local\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Local\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Local\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\KolbiApp.AssemblyInfoInputs.cache
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Local\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\KolbiApp.AssemblyInfo.cs
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Local\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\KolbiApp.csproj.CoreCompileInputs.cache
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Local\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Local\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\KolbiApp.dll
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Local\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\ref\KolbiApp.dll
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Local\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\KolbiApp.pdb
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Local\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\Views\SignUp.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Local\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\Views\Login.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Local\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Local\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\Views\Market.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Local\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\Views\ProductDetails.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Local\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\Views\ShoppingCart.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Local\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\Views\Factura.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Local\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\Views\Reportes.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Local\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\Views\PanelAdmin.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Local\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\Views\ReportesAdmin.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Local\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\Views\AdminUsuario.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Local\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\Views\AdminProducto.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Final\KolbiApp\KolbiApp\KolbiApp\bin\Debug\netstandard2.0\KolbiApp.deps.json
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Final\KolbiApp\KolbiApp\KolbiApp\bin\Debug\netstandard2.0\KolbiApp.dll
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Final\KolbiApp\KolbiApp\KolbiApp\bin\Debug\netstandard2.0\ref\KolbiApp.dll
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Final\KolbiApp\KolbiApp\KolbiApp\bin\Debug\netstandard2.0\KolbiApp.pdb
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Final\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Final\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Final\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Final\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\Views\AdminProducto.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Final\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\Views\AdminUsuario.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Final\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\Views\Factura.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Final\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\Views\Login.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Final\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\Views\Market.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Final\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\Views\PanelAdmin.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Final\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\Views\ProductDetails.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Final\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\Views\Reportes.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Final\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\Views\ReportesAdmin.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Final\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\Views\ShoppingCart.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Final\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\Views\SignUp.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Final\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\KolbiApp.AssemblyInfoInputs.cache
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Final\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\KolbiApp.AssemblyInfo.cs
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Final\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\KolbiApp.csproj.CoreCompileInputs.cache
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Final\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Final\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\KolbiApp.dll
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Final\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\ref\KolbiApp.dll
+C:\Users\Adrian Vinicio\Desktop\C# Proyecto Final\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\KolbiApp.pdb
+C:\Users\Adrian Vinicio\Desktop\KolbiApp\KolbiApp\KolbiApp\bin\Debug\netstandard2.0\KolbiApp.deps.json
+C:\Users\Adrian Vinicio\Desktop\KolbiApp\KolbiApp\KolbiApp\bin\Debug\netstandard2.0\KolbiApp.dll
+C:\Users\Adrian Vinicio\Desktop\KolbiApp\KolbiApp\KolbiApp\bin\Debug\netstandard2.0\ref\KolbiApp.dll
+C:\Users\Adrian Vinicio\Desktop\KolbiApp\KolbiApp\KolbiApp\bin\Debug\netstandard2.0\KolbiApp.pdb
+C:\Users\Adrian Vinicio\Desktop\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\KolbiApp.csprojAssemblyReference.cache
+C:\Users\Adrian Vinicio\Desktop\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\Views\AdminProducto.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\Views\AdminUsuario.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\Views\Factura.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\Views\Login.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\Views\Market.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\Views\PanelAdmin.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\Views\ProductDetails.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\Views\Reportes.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\Views\ReportesAdmin.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\Views\ShoppingCart.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\Views\SignUp.xaml.g.cs
+C:\Users\Adrian Vinicio\Desktop\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\KolbiApp.AssemblyInfoInputs.cache
+C:\Users\Adrian Vinicio\Desktop\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\KolbiApp.AssemblyInfo.cs
+C:\Users\Adrian Vinicio\Desktop\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\KolbiApp.csproj.CoreCompileInputs.cache
+C:\Users\Adrian Vinicio\Desktop\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Adrian Vinicio\Desktop\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\KolbiApp.dll
+C:\Users\Adrian Vinicio\Desktop\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\ref\KolbiApp.dll
+C:\Users\Adrian Vinicio\Desktop\KolbiApp\KolbiApp\KolbiApp\obj\Debug\netstandard2.0\KolbiApp.pdb

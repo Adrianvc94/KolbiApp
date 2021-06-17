@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             
+             xmlns:mvvm="clr-namespace:MvvmHelpers;assembly=MvvmHelpers"
+             xmlns:viewmodels="clr-namespace:KolbiApp.ViewModels"
+             x:DataType="viewmodels:ProductoViewModel"
+             xmlns:model="clr-namespace:KolbiApp.Modelos"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="#F5F5F8"
+             x:Name="MarketPage"
+             x:Class="KolbiApp.Views.Market">
+
+    <ContentPage.BindingContext>
+        <viewmodels:ProductoViewModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <xct:ItemSelectedEventArgsConverter x:Key="ItemSelectedEventArgsConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
+    <StackLayout>
+
+        <Grid Margin="10,0,10,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <RefreshView
+                Command="{Binding RefreshCommand}"
+                IsRefreshing="{Binding IsBusy, Mode=OneWay}"
+                RefreshColor="#BFD62E">
+
+                <CollectionView BackgroundColor="Transparent"
+                            ItemsSource="{Binding Producto}"
+                            SelectedItem="{Binding SelectedProducto, Mode=TwoWay}"
+                            SelectionMode="None"
+                            ItemSizingStrategy="MeasureAllItems"
+                            Margin="0,10,0,0"
+                                x:Name="ProductosView"
+                            >
+                    <CollectionView.ItemsLayout>
+                        <GridItemsLayout Orientation="Vertical" Span="2"
+                                     VerticalItemSpacing="0"/>
+                    </CollectionView.ItemsLayout>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="model:Productos">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="100*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="335"/>
+                                </Grid.RowDefinitions>
+                                <Frame Margin="10,15,10,15" IsClippedToBounds="True" HasShadow="True" CornerRadius="20"
+                                   Padding="10" BackgroundColor="#FFFFFF">
+                                    <StackLayout>
+
+                                        <StackLayout VerticalOptions="StartAndExpand">
+                                            <Image Source="{Binding Imagen}" WidthRequest="120" HeightRequest="120" VerticalOptions="Start"/>
+                                            <Label
+                                              FontSize="Large" x:Name="txtName"  HorizontalTextAlignment="Center"
+                                              Text="{Binding Name}" TextColor="Black" Margin="0,5,0,0"
+                                              HorizontalOptions="CenterAndExpand" />
+                                        </StackLayout>
+
+                                        <StackLayout VerticalOptions="EndAndExpand" Margin="0,0,0,10">
+                                            <Label
+                                                 FontSize="Large" 
+                                                 Text="{Binding Price, StringFormat='${0}'}"
+                                                 HorizontalOptions="Center" />
+
+                                            <Button Text="Ver mas" FontAttributes="Bold" TextColor="White"  Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:ProductoViewModel}}, Path=SelectedCommand}"
+                                                CommandParameter="{Binding .}" BackgroundColor="#BFD62E" CornerRadius="20"
+                                                    ></Button>
+
+                                        </StackLayout>
+                                    </StackLayout>
+                                </Frame>
+
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                    <CollectionView.Header>
+                        <StackLayout Orientation="Vertical">
+
+                            <StackLayout Orientation="Horizontal" WidthRequest="300" HeightRequest="50" BackgroundColor="Transparent">
+                                <Label HorizontalOptions="Start" Text="Productos" TextColor="Black" 
+                                   FontSize="25" FontAttributes="Bold" Margin="10,0,0,10" VerticalOptions="Center"/>
+
+                                <ImageButton Visual="Material" Source="Reportes.png" BackgroundColor="#F5F5F8" HorizontalOptions="End" VerticalOptions="Center"
+                                            Margin="210,0,0,0" x:Name="btnReportes" HeightRequest="35" WidthRequest="35" CornerRadius="20"></ImageButton>
+
+                            </StackLayout>
+
+                            <SearchBar Placeholder="Buscar..." PlaceholderColor="#666666" BackgroundColor="#F6F6F6" TextColor="#666666"
+                           Margin="20,0,20,0" CancelButtonColor="Red" x:Name="SearchBar" TextChanged="SearchBar_TextChanged"
+                                      />
+
+                        </StackLayout>
+                    </CollectionView.Header>
+                </CollectionView>
+            </RefreshView>
+        </Grid>
+
+        <Frame VerticalOptions="End" HeightRequest="50" BorderColor="#FFFFFF" Padding="0" HasShadow="True">
+            <StackLayout VerticalOptions="Fill" Orientation="Horizontal" HorizontalOptions="Fill" Spacing="40"
+                          BackgroundColor="#FFFFFF">
+
+                <ImageButton Visual="Material" Source="shopping_cart.png" BackgroundColor="#FFFFFF" HorizontalOptions="Center" VerticalOptions="Center"
+                            Margin="100,0,0,0"  x:Name="btnCarrito" HeightRequest="30" WidthRequest="40" CornerRadius="20"></ImageButton>
+
+                <ImageButton Visual="Material" Source="logout.png" BackgroundColor="#FFFFFF" HorizontalOptions="Center" VerticalOptions="Center"
+                            Margin="90,0,0,0"  x:Name="btnLogOut" HeightRequest="30" WidthRequest="40" CornerRadius="20"></ImageButton>
+
+            </StackLayout>
+        </Frame>
+        
+    </StackLayout>
+ 
+                
+</ContentPage>

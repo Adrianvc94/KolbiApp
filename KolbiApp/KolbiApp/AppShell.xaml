@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell
+    x:Class="KolbiApp.AppShell"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:KolbiApp.Views"
+    Title="MyKolbiApp">
+  
+    <!--
+        When the Flyout is visible this defines the content to display in the flyout.
+        FlyoutDisplayOptions="AsMultipleItems" will create a separate flyout item for each child element
+        https://docs.microsoft.com/dotnet/api/xamarin.forms.shellgroupitem.flyoutdisplayoptions?view=xamarin-forms
+    -->
+    <FlyoutItem Title="SignUp" Icon="icon_about.png">
+        <ShellContent ContentTemplate="{DataTemplate local:SignUp}" Route="SignPage" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Login" Icon="icon_about.png">
+        <ShellContent ContentTemplate="{DataTemplate local:Login}" Route="LoginPage" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Market" Icon="icon_about.png">
+        <ShellContent ContentTemplate="{DataTemplate local:Market}" Route="MarketPage" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="ProductDetails" Icon="icon_about.png">
+        <ShellContent ContentTemplate="{DataTemplate local:ProductDetails}" Route="DetailsPage" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="ShoppingCart" Icon="icon_about.png">
+        <ShellContent ContentTemplate="{DataTemplate local:ShoppingCart}" Route="ShoppingCartPage" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Factura" Icon="icon_about.png">
+        <ShellContent ContentTemplate="{DataTemplate local:Factura}" Route="FacturaPage" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Reportes" Icon="icon_about.png">
+        <ShellContent ContentTemplate="{DataTemplate local:Reportes}" Route="ReportesPage" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="PanelAdmin" Icon="icon_about.png">
+        <ShellContent ContentTemplate="{DataTemplate local:PanelAdmin}" Route="PanelAdminPage" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="ReportesAdmin" Icon="icon_about.png">
+        <ShellContent ContentTemplate="{DataTemplate local:ReportesAdmin}" Route="ReportesAdminPage" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="AdminUsuario" Icon="icon_about.png">
+        <ShellContent ContentTemplate="{DataTemplate local:AdminUsuario}" Route="AdminUsuarioPage" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="AdminProducto" Icon="icon_about.png">
+        <ShellContent ContentTemplate="{DataTemplate local:AdminProducto}" Route="AdminProductoPage" />
+    </FlyoutItem>
+
+</Shell>
