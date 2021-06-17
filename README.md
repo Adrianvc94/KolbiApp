@@ -22,7 +22,6 @@ Características:
 
 ![image](https://user-images.githubusercontent.com/63268239/122478859-62cbf380-cf87-11eb-9850-32486bdf02d3.png)
 
-Panel del administración
 ![image](https://user-images.githubusercontent.com/63268239/122478915-7d05d180-cf87-11eb-8a6a-c0855e2194cd.png)
 
 
